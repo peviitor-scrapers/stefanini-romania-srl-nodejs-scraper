@@ -12,9 +12,9 @@
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
 | Last Scraped | 2026-07-27 |
 
-## Current Job Listings (18)
+## Current Job Listings (17)
 
-_Generated: 2026-07-27T10:41:21.153Z_
+_Generated: 2026-07-27T12:16:42.203Z_
 
 ### Support Engineer with German
 
@@ -92,12 +92,6 @@ _Generated: 2026-07-27T10:41:21.153Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### Data Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45220&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45220&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Business Analyst
