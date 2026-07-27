@@ -14,7 +14,7 @@
 
 ## Current Job Listings (17)
 
-_Generated: 2026-07-27T12:19:22.278Z_
+_Generated: 2026-07-27T12:33:38.424Z_
 
 ### Support Engineer with German
 
