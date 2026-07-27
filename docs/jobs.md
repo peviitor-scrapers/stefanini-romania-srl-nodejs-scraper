@@ -7,14 +7,26 @@
 | CIF | 16139707 |
 | Brand | STEFANINI |
 | Status | activ |
-| Location | ING. GEORGE CONSTANTINESCU, 4B, Bucureşti Sectorul 2, Bucureşti |
+| Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-26 |
+| Last Scraped | 2026-07-27 |
 
-## Current Job Listings (17)
+## Current Job Listings (18)
 
-_Generated: 2026-07-26T08:37:10.536Z_
+_Generated: 2026-07-27T10:41:21.153Z_
+
+### Support Engineer with German
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### SAP Technical Services Coordinator
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### AWS Cloud Engineer
 
@@ -50,12 +62,6 @@ _Generated: 2026-07-26T08:37:10.536Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### SAP Technical Services Coordinator
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### DWP Software Engineer

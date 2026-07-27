@@ -1,0 +1,21 @@
+{
+  "validatedAt": "2026-07-27T10:41:18.958Z",
+  "anaf": null,
+  "peviitor": {
+    "id": "16139707",
+    "company": "STEFANINI ROMANIA SRL",
+    "brand": "STEFANINI",
+    "status": "activ",
+    "location": [
+      "București"
+    ],
+    "website": [
+      "https://stefanini.com"
+    ],
+    "career": [
+      "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania"
+    ],
+    "lastScraped": "2026-07-26",
+    "scraperFile": "https://raw.githubusercontent.com/sebiboga/stefanini-romania-srl-nodejs-scraper/main/.github/workflows/job-seeker-ro-spider.yml"
+  }
+}
