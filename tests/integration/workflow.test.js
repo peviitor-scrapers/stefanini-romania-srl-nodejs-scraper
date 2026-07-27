@@ -1,30 +1,57 @@
 import { jest } from '@jest/globals';
-import dotenv from 'dotenv';
-import path from 'path';
-import { fileURLToPath } from 'url';
-import companyConfig from '../../config/company.js';
+import fetch from 'node-fetch';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: path.resolve(__dirname, '../../.env.local') });
+const API_BASE = 'https://api.peviitor.ro/v1';
 
-const HAS_SOLR = !!process.env.SOLR_AUTH;
+let HAS_API = false;
 
-function itIfSolr(name, fn, timeout) {
-  if (HAS_SOLR) {
-    return it(name, fn, timeout);
+async function checkApiAvailability() {
+  try {
+    const res = await fetch(`${API_BASE}/scraper/jobs/?cif=16139707&rows=1`, {
+      signal: AbortSignal.timeout(5000)
+    });
+    return res.ok || res.status === 400;
+  } catch {
+    return false;
   }
-  return it.skip(`${name} (skipped: SOLR_AUTH not set)`, fn, timeout);
 }
 
-beforeAll(() => {
-  if (HAS_SOLR) {
-    process.env.SOLR_AUTH = process.env.SOLR_AUTH;
-  }
-});
+let HAS_ANAF = false;
 
-const COMPANY_CIF = companyConfig.cif;
-const COMPANY_BRAND = companyConfig.brand;
-const COMPANY_NAME = companyConfig.legalName;
+async function checkAnafAvailability() {
+  try {
+    const res = await fetch('https://demoanaf.ro/api/search?q=test', {
+      method: 'HEAD',
+      signal: AbortSignal.timeout(5000)
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
+}
+
+function itIfApi(name, fn, timeout) {
+  if (HAS_API) {
+    return it(name, fn, timeout);
+  }
+  return it.skip(`${name} (skipped: API unavailable)`, fn, timeout);
+}
+
+function itIfAnaf(name, fn, timeout) {
+  if (HAS_ANAF) {
+    return it(name, fn, timeout);
+  }
+  return it.skip(`${name} (skipped: ANAF API unavailable)`, fn, timeout);
+}
+
+let COMPANY_CONFIG;
+const STEFANINI_CIF = '16139707';
+
+beforeAll(async () => {
+  [HAS_API, HAS_ANAF] = await Promise.all([checkApiAvailability(), checkAnafAvailability()]);
+  const mod = await import('../../scraper/config/company.js');
+  COMPANY_CONFIG = mod.default;
+});
 
 describe('Integration: API Workflow', () => {
 
@@ -32,31 +59,35 @@ describe('Integration: API Workflow', () => {
     let anaf;
 
     beforeAll(async () => {
-      anaf = await import('../../src/anaf.js');
+      anaf = await import('../../scraper/anaf.js');
     });
 
-    it('should find the company by CIF lookup', async () => {
-      const data = await anaf.getCompanyFromANAF(COMPANY_CIF);
+    itIfAnaf('should search for Stefanini brand and find the company', async () => {
+      const results = await anaf.searchCompany('Stefanini');
 
-      expect(data).toBeDefined();
-      expect(data.cui).toBe(parseInt(COMPANY_CIF, 10));
-      expect(data.name).toBe(COMPANY_NAME);
-      expect(data.inactive).toBe(false);
+      expect(Array.isArray(results)).toBe(true);
+      expect(results.length).toBeGreaterThan(0);
+
+      const stef = results.find(c =>
+        c.name.toUpperCase().includes('STEFANINI') && c.statusLabel === 'Funcțiune'
+      );
+      expect(stef).toBeDefined();
+      expect(stef.cui.toString()).toBe(STEFANINI_CIF);
     }, 15000);
 
-    it('should return empty array for non-existent brand', async () => {
+    itIfAnaf('should return empty array for non-existent brand', async () => {
       const results = await anaf.searchCompany('ThisBrandDoesNotExistXYZ123');
 
       expect(Array.isArray(results)).toBe(true);
       expect(results.length).toBe(0);
     }, 15000);
 
-    it('should fetch company details by valid CIF', async () => {
-      const data = await anaf.getCompanyFromANAF(COMPANY_CIF);
+    itIfAnaf('should fetch company details by valid CIF', async () => {
+      const data = await anaf.getCompanyFromANAF(STEFANINI_CIF);
 
       expect(data).toBeDefined();
-      expect(data.cui).toBe(parseInt(COMPANY_CIF, 10));
-      expect(data.name).toBe(COMPANY_NAME);
+      expect(data.cui).toBe(16139707);
+      expect(data.name).toBe('STEFANINI ROMANIA SRL');
       expect(data).toHaveProperty('address');
       expect(data).toHaveProperty('registrationNumber');
       expect(data).toHaveProperty('caenCode');
@@ -64,95 +95,87 @@ describe('Integration: API Workflow', () => {
       expect(data).toHaveProperty('onrcStatusLabel', 'Funcțiune');
     }, 15000);
 
-    it('should throw for invalid CIF', async () => {
+    itIfAnaf('should throw for invalid CIF', async () => {
       await expect(anaf.getCompanyFromANAF('00000000')).rejects.toThrow();
     }, 60000);
 
-    it('should use cached data when API fails (getCompanyFromANAFWithFallback)', async () => {
-      const cached = { cui: parseInt(COMPANY_CIF, 10), name: COMPANY_NAME };
+    itIfAnaf('should use cached data when API fails (getCompanyFromANAFWithFallback)', async () => {
+      const cached = { cui: 16139707, name: 'STEFANINI ROMANIA SRL' };
 
-      const data = await anaf.getCompanyFromANAFWithFallback(COMPANY_CIF, cached);
+      const data = await anaf.getCompanyFromANAFWithFallback(STEFANINI_CIF, cached);
 
       expect(data).toBeDefined();
-      expect(data.cui).toBe(parseInt(COMPANY_CIF, 10));
+      expect(data.cui).toBe(16139707);
     }, 15000);
   });
 
   describe('Peviitor API', () => {
-    let company;
-
-    beforeAll(async () => {
-      company = await import('../../company.js');
-    });
-
-    it('should respond successfully and contain companies array (Peviitor API may block non-browser requests)', async () => {
-      expect(true).toBe(true);
+    itIfApi('should return company data from Peviitor API', async () => {
+      const api = await import('../../scraper/api.js');
+      const company = await api.getCompanyByCif(STEFANINI_CIF);
+      expect(company).toBeTruthy();
+      expect(company.id).toBe(STEFANINI_CIF);
     }, 15000);
   });
 
-  describe('SOLR Company Core', () => {
-    let solr;
+  describe('API Company Core', () => {
+    let api;
 
     beforeAll(async () => {
-      solr = await import('../../solr.js');
+      api = await import('../../scraper/api.js');
     });
 
-    itIfSolr('should query company core by ID', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
+    itIfApi('should query company core by CIF', async () => {
+      const result = await api.getCompanyByCif(STEFANINI_CIF);
 
-      expect(result.numFound).toBe(1);
-      const company = result.docs[0];
-      expect(company.id).toBe(COMPANY_CIF);
-      expect(company.company).toBe(COMPANY_NAME);
-      expect(company.brand).toBe(COMPANY_BRAND);
-      expect(company.status).toBe('activ');
-      expect(Array.isArray(company.location)).toBe(true);
-      expect(company.lastScraped).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      expect(result).not.toBeNull();
+      expect(result.id).toBe(STEFANINI_CIF);
+      expect(result.company).toBe(COMPANY_CONFIG.company);
+      expect(result.status).toBe('activ');
+      expect(Array.isArray(result.location)).toBe(true);
+      expect(result.lastScraped).toMatch(/^\d{4}-\d{2}-\d{2}$/);
     }, 15000);
 
-    itIfSolr('should have required company model fields', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      const company = result.docs[0];
+    itIfApi('should have required company model fields', async () => {
+      const result = await api.getCompanyByCif(STEFANINI_CIF);
 
-      expect(company).toHaveProperty('id', COMPANY_CIF);
-      expect(company).toHaveProperty('company');
-      expect(company).toHaveProperty('brand', COMPANY_BRAND);
-      expect(company).toHaveProperty('status');
-      expect(['activ', 'suspendat', 'inactiv', 'radiat']).toContain(company.status);
-      expect(company).toHaveProperty('location');
-      expect(Array.isArray(company.location)).toBe(true);
-      expect(company).toHaveProperty('website');
-      expect(Array.isArray(company.website)).toBe(true);
-      expect(company.website[0]).toMatch(/^https?:\/\/.+/);
-      expect(company).toHaveProperty('career');
-      expect(Array.isArray(company.career)).toBe(true);
-      expect(company.career[0]).toMatch(/^https?:\/\/.+/);
-      expect(company).toHaveProperty('lastScraped');
-      expect(company).toHaveProperty('scraperFile');
+      expect(result).toHaveProperty('id', STEFANINI_CIF);
+      expect(result).toHaveProperty('company');
+      expect(result).toHaveProperty('status');
+      expect(['activ', 'suspendat', 'inactiv', 'radiat']).toContain(result.status);
+      expect(result).toHaveProperty('location');
+      expect(Array.isArray(result.location)).toBe(true);
+      expect(result).toHaveProperty('website');
+      expect(Array.isArray(result.website)).toBe(true);
+      expect(result.website[0]).toMatch(/^https?:\/\/.+/);
+      expect(result).toHaveProperty('career');
+      expect(Array.isArray(result.career)).toBe(true);
+      expect(result.career[0]).toMatch(/^https?:\/\/.+/);
+      expect(result).toHaveProperty('lastScraped');
+      expect(result).toHaveProperty('scraperFile');
     }, 15000);
 
-    itIfSolr('should have optional field (group) if present', async () => {
-      const result = await solr.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      const company = result.docs[0];
+    itIfApi('should have optional field (group) if present', async () => {
+      const result = await api.getCompanyByCif(STEFANINI_CIF);
 
-      if (company.group !== undefined) {
-        expect(typeof company.group).toBe('string');
+      if (result.group !== undefined) {
+        expect(typeof result.group).toBe('string');
       }
     }, 15000);
   });
 
-  describe('SOLR Jobs Core', () => {
-    let solr;
+  describe('API Jobs Core', () => {
+    let api;
 
     beforeAll(async () => {
-      solr = await import('../../solr.js');
+      api = await import('../../scraper/api.js');
     });
 
-    itIfSolr('should query jobs by CIF and return valid data', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
+    itIfApi('should query jobs by CIF and return valid data', async () => {
+      const result = await api.querySOLR(STEFANINI_CIF);
 
       if (result.numFound === 0) {
-        console.log(`⚠️ No ${COMPANY_BRAND} jobs in Solr — skipping job field assertions (scraper may not have run yet)`);
+        console.log('⚠️ No STEFANINI jobs in SOLR — skipping job field assertions (scraper may not have run yet)');
         return;
       }
 
@@ -162,34 +185,34 @@ describe('Integration: API Workflow', () => {
       const job = result.docs[0];
       expect(job).toHaveProperty('url');
       expect(job).toHaveProperty('title');
-      expect(job).toHaveProperty('company', COMPANY_NAME);
-      expect(job).toHaveProperty('cif', COMPANY_CIF);
+      expect(job).toHaveProperty('company', COMPANY_CONFIG.company);
+      expect(job).toHaveProperty('cif', STEFANINI_CIF);
       expect(job).toHaveProperty('status');
       expect(job).toHaveProperty('location');
     }, 15000);
 
-    itIfSolr('should not have duplicate URLs for same CIF', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
+    itIfApi('should not have duplicate URLs for same CIF', async () => {
+      const result = await api.querySOLR(STEFANINI_CIF);
 
       const urls = result.docs.map(j => j.url);
       const uniqueUrls = new Set(urls);
       expect(uniqueUrls.size).toBe(result.docs.length);
     }, 15000);
 
-    itIfSolr('should have valid status values for all jobs', async () => {
+    itIfApi('should have valid status values for all jobs', async () => {
       const validStatuses = ['scraped', 'tested', 'verified', 'published'];
-      const result = await solr.querySOLR(COMPANY_CIF);
+      const result = await api.querySOLR(STEFANINI_CIF);
 
       for (const job of result.docs) {
         expect(validStatuses).toContain(job.status);
       }
     }, 15000);
 
-    itIfSolr('should have valid CIF format for all jobs', async () => {
-      const result = await solr.querySOLR(COMPANY_CIF);
+    itIfApi('should have valid CIF format for all jobs', async () => {
+      const result = await api.querySOLR(STEFANINI_CIF);
 
       for (const job of result.docs) {
-        expect(job.cif).toMatch(/^\d{6,9}$/);
+        expect(job.cif).toMatch(/^\d{8}$/);
       }
     }, 15000);
   });
@@ -197,37 +220,46 @@ describe('Integration: API Workflow', () => {
   describe('Full Validation Workflow', () => {
     let anaf;
     let companyModule;
+    let api;
 
     beforeAll(async () => {
-      anaf = await import('../../src/anaf.js');
-      companyModule = await import('../../company.js');
+      anaf = await import('../../scraper/anaf.js');
+      companyModule = await import('../../scraper/company.js');
+      api = await import('../../scraper/api.js');
     });
 
-    it('should complete the ANAF → Peviitor validation path', async () => {
-      const anafData = await anaf.getCompanyFromANAF(COMPANY_CIF);
-      expect(anafData.name).toBe(COMPANY_NAME);
+    itIfAnaf('should complete the ANAF → Peviitor validation path', async () => {
+      const searchResults = await anaf.searchCompany('Stefanini');
+      expect(searchResults.length).toBeGreaterThan(0);
+
+      const stefCompany = searchResults.find(c =>
+        c.name.toUpperCase().includes('STEFANINI') && c.statusLabel === 'Funcțiune'
+      );
+      expect(stefCompany).toBeDefined();
+
+      const anafData = await anaf.getCompanyFromANAF(stefCompany.cui.toString());
+      expect(anafData.name).toBe('STEFANINI ROMANIA SRL');
       expect(anafData.inactive).toBe(false);
     }, 30000);
 
-    itIfSolr('should have matching CIF in company core', async () => {
+    itIfApi('should have matching CIF in company core', async () => {
       const companyResult = await companyModule.validateAndGetCompany();
-      const solrObj = await import('../../solr.js');
 
-      const solrResult = await solrObj.queryCompanySOLR(`id:${COMPANY_CIF}`);
-      expect(solrResult.numFound).toBe(1);
-      expect(solrResult.docs[0].id).toBe(COMPANY_CIF);
-      expect(solrResult.docs[0].company).toBe(COMPANY_NAME);
+      const companyData = await api.getCompanyByCif(STEFANINI_CIF);
+      expect(companyData).not.toBeNull();
+      expect(companyData.id).toBe(STEFANINI_CIF);
+      expect(companyData.company).toBe(COMPANY_CONFIG.company);
     }, 30000);
 
-    itIfSolr('should validate company and query SOLR for existing jobs', async () => {
+    itIfApi('should validate company and query SOLR for existing jobs', async () => {
       const companyResult = await companyModule.validateAndGetCompany();
 
       expect(companyResult.status).toBe('active');
-      expect(companyResult.company).toBe(COMPANY_NAME);
-      expect(companyResult.cif).toBe(COMPANY_CIF);
+      expect(companyResult.company).toBe(COMPANY_CONFIG.company);
+      expect(companyResult.cif).toBe(STEFANINI_CIF);
 
       if (companyResult.existingJobsCount === 0) {
-        console.log(`⚠️ No ${COMPANY_BRAND} jobs in Solr — skipping job count assertion (scraper may not have run yet)`);
+        console.log('⚠️ No STEFANINI jobs in SOLR — skipping job count assertion (scraper may not have run yet)');
         return;
       }
       expect(companyResult.existingJobsCount).toBeGreaterThan(0);
