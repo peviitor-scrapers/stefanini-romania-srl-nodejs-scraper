@@ -54,8 +54,8 @@ job_seeker_ro_spider
 | EPAM Careers | `https://careers.epam.com/api/jobs/v2/search/...` | Public |
 | ANAF (demoanaf) | `https://demoanaf.ro/api/...` | Public |
 | Peviitor | `https://api.peviitor.ro/v1/company/` | Public |
-| SOLR (job core) | `https://solr.peviitor.ro/solr/job` | `SOLR_AUTH` |
-| SOLR (company core) | `https://solr.peviitor.ro/solr/company` | `SOLR_AUTH` |
+| SOLR (job core) | `https://api.peviitor.ro/v1/scraper/jobs/` | — |
+| SOLR (company core) | `https://api.peviitor.ro/v1/firme/company/` | — |
 
 ## Robots.txt
 
@@ -98,4 +98,4 @@ npm run test:integration
 npm run test:e2e
 ```
 
-Testele SOLR folosesc `itIfSolr` — se auto-skip dacă variabila `SOLR_AUTH` nu e setată.
+Testele folosesc API-ul peviitor.ro — nu necesită autentificare directă SOLR.

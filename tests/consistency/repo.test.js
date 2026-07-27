@@ -83,17 +83,6 @@ describe("Repository Configuration", () => {
     });
   });
 
-  describe("SOLR_AUTH secret", () => {
-    it("should be defined in CI environment", () => {
-      if (!process.env.SOLR_AUTH) {
-        console.log("SOLR_AUTH not set — skipping (will run when secret is added)");
-        return;
-      }
-      expect(process.env.SOLR_AUTH).toBeTruthy();
-      console.log("✅ SOLR_AUTH is set");
-    });
-  });
-
   describe("workflow files", () => {
     it("must have job-seeker-ro-spider.yml", () => {
       const ymlPath = path.resolve(__dirname, "../..", SCRAPER_YML);

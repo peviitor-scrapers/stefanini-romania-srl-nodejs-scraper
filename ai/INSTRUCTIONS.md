@@ -61,14 +61,11 @@ When working on this scraper:
 ## Running the Scraper
 
 ```bash
-# Set environment variables
-export SOLR_AUTH=your-solr-credentials
-
 # Run the full scraper workflow (single command)
-node index.js
+node scraper/index.js
 
 # Test mode (one page only, limit 10 jobs)
-node index.js --test
+node scraper/index.js --test
 ```
 
 > **Important**: Scraper does NOT delete jobs from other sources (ANOFM, etc). It only upserts SmartSearchOnline jobs. Existing jobs are preserved.
@@ -154,7 +151,7 @@ generateJobsMarkdown() → docs/jobs.md
 - **DemoANAF Search**: `https://demoanaf.ro/api/search?q=BRAND` - Search companies by name/brand
 - **DemoANAF Company**: `https://demoanaf.ro/api/company/:cui` - Get company details by CIF
 - **Peviitor API**: `https://api.peviitor.ro/v1/company/`
-- **Solr**: `https://solr.peviitor.ro/solr/job` (auth: via `SOLR_AUTH` environment variable)
+- **Solr**: via `api.peviitor.ro/v1` (no direct access needed)
 
 ## Rate Limiting & Politeness
 
@@ -174,7 +171,6 @@ Derived scrapers should adjust rate limiting based on the target site's capabili
 
 | Variable | Description |
 |----------|-------------|
-| `SOLR_AUTH` | SOLR credentials in format `user:password` |
 | `GITHUB_REPOSITORY` | Used by consistency tests — format: `owner/repo` |
 | `GITHUB_TOKEN` | GitHub API token for consistency tests |
 

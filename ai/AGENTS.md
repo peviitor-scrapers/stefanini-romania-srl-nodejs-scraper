@@ -40,7 +40,7 @@ NEVER use paths outside the project (e.g. `C:\Users\...\AppData\Local\Temp\openc
 - Push after commit
 
 ### 3. Environment Variables
-- `SOLR_AUTH` must be set in `.env.local` for SOLR tests (format: `user:password`)
+- `SOLR_AUTH` is no longer needed — all operations go through `api.peviitor.ro/v1`
 - `.env.local` is loaded automatically at runtime via `dotenv` (see `package.json`) — never commit it
 - Consistency tests also need `GITHUB_REPOSITORY` (format: `owner/repo`) and `GITHUB_TOKEN`
 
@@ -65,7 +65,7 @@ npm run test:consistency
 ### 5. ESM + Jest
 - Use `jest.unstable_mockModule` (NOT `jest.mock`) for mocking ESM modules
 - Run with `--experimental-vm-modules` flag
-- SOLR tests use conditional `itIfSolr` helper — auto-skip when `SOLR_AUTH` not set
+- SOLR tests use API-based approach — no direct SOLR access needed
 
 ### 6. Verification
 - După orice modificare, urmează [VERIFY.md](VERIFY.md) pas cu pas
