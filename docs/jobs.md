@@ -10,16 +10,22 @@
 | Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-27 |
+| Last Scraped | 2026-07-28 |
 
 ## Current Job Listings (17)
 
-_Generated: 2026-07-27T12:33:38.424Z_
+_Generated: 2026-07-28T08:47:25.492Z_
 
 ### Support Engineer with German
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&)
 - **Location:** România
+- **Status:** scraped
+
+### Business Analyst
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### SAP Technical Services Coordinator
@@ -92,12 +98,6 @@ _Generated: 2026-07-27T12:33:38.424Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45086&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### Business Analyst
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### DWP Delivery Manager
