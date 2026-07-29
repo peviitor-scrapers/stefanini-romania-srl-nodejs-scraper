@@ -10,11 +10,23 @@
 | Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-28 |
+| Last Scraped | 2026-07-29 |
 
 ## Current Job Listings (17)
 
-_Generated: 2026-07-28T08:47:25.492Z_
+_Generated: 2026-07-29T08:51:58.452Z_
+
+### AWS Cloud Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Senior Databricks Data Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Support Engineer with German
 
@@ -32,12 +44,6 @@ _Generated: 2026-07-28T08:47:25.492Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### AWS Cloud Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Team Lead Fraud and Security Operations
@@ -110,10 +116,4 @@ _Generated: 2026-07-28T08:47:25.492Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### Senior Databricks Data Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
