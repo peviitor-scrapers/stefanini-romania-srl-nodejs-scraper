@@ -10,11 +10,35 @@
 | Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-29 |
+| Last Scraped | 2026-07-30 |
 
-## Current Job Listings (17)
+## Current Job Listings (20)
 
-_Generated: 2026-07-29T08:51:58.452Z_
+_Generated: 2026-07-30T08:42:02.443Z_
+
+### SAP Technical Services Coordinator
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Support Engineer with English (BCG)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45312&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45312&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Java Developer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45334&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45334&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Senior Java Developer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45333&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45333&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### AWS Cloud Engineer
 
@@ -38,12 +62,6 @@ _Generated: 2026-07-29T08:51:58.452Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45155&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### SAP Technical Services Coordinator
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### Team Lead Fraud and Security Operations
