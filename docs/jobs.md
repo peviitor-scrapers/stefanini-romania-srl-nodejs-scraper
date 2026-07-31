@@ -10,11 +10,17 @@
 | Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-07-30 |
+| Last Scraped | 2026-07-31 |
 
-## Current Job Listings (20)
+## Current Job Listings (19)
 
-_Generated: 2026-07-30T08:42:02.443Z_
+_Generated: 2026-07-31T09:13:15.022Z_
+
+### Senior Databricks Data Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### SAP Technical Services Coordinator
 
@@ -34,21 +40,9 @@ _Generated: 2026-07-30T08:42:02.443Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Senior Java Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45333&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45333&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
 ### AWS Cloud Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Senior Databricks Data Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=44540&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
