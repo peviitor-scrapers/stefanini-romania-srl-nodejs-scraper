@@ -18,16 +18,5 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Cache Playwright browsers
-        id: playwright-cache
-        uses: actions/cache@v4
-        with:
-          path: ~/.cache/ms-playwright
-          key: playwright-${{ runner.os }}-${{ hashFiles('package-lock.json') }}
-
-      - name: Install Playwright Chromium
-        if: steps.playwright-cache.outputs.cache-hit != 'true'
-        run: npx playwright install chromium --with-deps
-
-      - name: Deep validate (browser mode — catches JS 404s)
-        run: node --no-deprecation tests/validate-stefanini-jobs.js --browser --timeout 30000 --delete
+      - name: Deep validate (content-aware — catches soft-404s)
+        run: node --no-deprecation tests/validate-stefanini-jobs.js --content --timeout 30000 --delete
