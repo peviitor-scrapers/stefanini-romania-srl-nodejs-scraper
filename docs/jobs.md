@@ -10,11 +10,11 @@
 | Location | București |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-01 |
+| Last Scraped | 2026-08-02 |
 
 ## Current Job Listings (19)
 
-_Generated: 2026-08-01T08:31:09.515Z_
+_Generated: 2026-08-02T08:33:44.907Z_
 
 ### AWS Cloud Engineer
 
