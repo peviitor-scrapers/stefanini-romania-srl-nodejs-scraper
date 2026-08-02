@@ -36,6 +36,7 @@ temp/
 *.tmp
 
 # Job data files (should not be committed)
+anaf-cache.json
 jobs.json
 jobs_epam_ro.json
 jobs_existing.json

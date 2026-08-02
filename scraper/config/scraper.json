@@ -1,0 +1,5 @@
+{
+  "apiBase": "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs",
+  "careersUrl": "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania",
+  "timeout": 10000
+}

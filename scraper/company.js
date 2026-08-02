@@ -18,7 +18,7 @@ const COMPANY_ID = companyConfig.id;
 const COMPANY_BRAND = companyConfig.brand || null;
 
 const CACHE_MAX_AGE_DAYS = 7;
-const ANAF_CACHE_PATH = "scraper/anaf-cache.json";
+const TMP_CACHE_PATH = "tmp/company.json";
 
 const COMPANY_MODEL_FIELDS = [
   { name: "id", required: true, type: "string" },
@@ -78,24 +78,36 @@ function validateCompanyModel(data) {
 }
 
 function saveCompanyData(anafData, peviitorData) {
-  const anafCache = { validatedAt: new Date().toISOString(), anaf: anafData, peviitor: peviitorData };
-  fs.mkdirSync("scraper", { recursive: true });
-  fs.writeFileSync(ANAF_CACHE_PATH, JSON.stringify(anafCache, null, 2), "utf-8");
-  console.log(`✅ Saved ANAF cache to ${ANAF_CACHE_PATH}`);
-
-  const configPath = "scraper/config/company.json";
-  const config = JSON.parse(fs.readFileSync(configPath, "utf-8"));
-  config.lastScraped = new Date().toISOString().split("T")[0];
-  fs.writeFileSync(configPath, JSON.stringify(config, null, 2), "utf-8");
-  console.log(`✅ Updated lastScraped in ${configPath}`);
+  const companyData = {
+    validatedAt: new Date().toISOString(),
+    source: "ANAF",
+    brand: COMPANY_BRAND,
+    anaf: anafData,
+    peviitor: peviitorData,
+    summary: {
+      company: anafData?.name || null,
+      cif: anafData?.cui?.toString() || null,
+      active: !anafData?.inactive
+    }
+  };
+  fs.mkdirSync("tmp", { recursive: true });
+  fs.writeFileSync(TMP_CACHE_PATH, JSON.stringify(companyData, null, 2), "utf-8");
+  console.log(`✅ Saved company data to ${TMP_CACHE_PATH}`);
+  return companyData;
 }
 
 function loadAnafCache() {
-  if (!fs.existsSync(ANAF_CACHE_PATH)) return null;
-  try { return JSON.parse(fs.readFileSync(ANAF_CACHE_PATH, "utf-8")); } catch { return null; }
+  if (!fs.existsSync(TMP_CACHE_PATH)) return null;
+  try { return JSON.parse(fs.readFileSync(TMP_CACHE_PATH, "utf-8")); } catch { return null; }
 }
 
 function isCacheFresh() {
+  const cache = loadAnafCache();
+  if (cache?.validatedAt) {
+    const ageMs = Date.now() - new Date(cache.validatedAt).getTime();
+    if ((ageMs / (1000 * 60 * 60 * 24)) < CACHE_MAX_AGE_DAYS) return true;
+    return false;
+  }
   if (!companyConfig.lastScraped) return false;
   const ageMs = Date.now() - new Date(companyConfig.lastScraped).getTime();
   return (ageMs / (1000 * 60 * 60 * 24)) < CACHE_MAX_AGE_DAYS;
@@ -147,7 +159,7 @@ export async function validateAndGetCompany() {
   let peviitorData = null;
   try { peviitorData = await getCompanyFromPeviitor(companyConfig.company); console.log("Peviitor data fetched successfully"); } catch (e) { console.log("Peviitor API error:", e.message); }
   
-  saveCompanyData(anafData, peviitorData);
+  if (anafData) saveCompanyData(anafData, peviitorData);
   
   if (!active) {
     console.log("\n⚠️ Company is INACTIVE in ANAF - deleting jobs from SOLR and stopping");

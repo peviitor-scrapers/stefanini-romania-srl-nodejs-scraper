@@ -1,0 +1,95 @@
+{
+  "validatedAt": "2026-07-27T12:13:48.936Z",
+  "source": "ANAF",
+  "brand": "STEFANINI",
+  "anaf": {
+    "cui": 16139707,
+    "name": "STEFANINI ROMANIA SRL",
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, BULEVARDUL DOROBANTILOR, NR.72-76, ETAJ 3",
+    "registrationNumber": "J40/2034/1991",
+    "phone": "",
+    "fax": "",
+    "postalCode": "",
+    "caenCode": "6201",
+    "iban": "",
+    "registrationState": "",
+    "registrationDate": "1991-06-25",
+    "fiscalAuthority": "Direcţia Generală a Finanţelor Publice Municipiul Bucureşti",
+    "ownershipForm": "PROPR.PRIVATA-CAPITAL PRIVAT STRAIN",
+    "organizationForm": "PERSOANA JURIDICA",
+    "legalForm": "SOCIETATE COMERCIALĂ CU RĂSPUNDERE LIMITATĂ",
+    "vatRegistered": true,
+    "vatPeriods": [
+      {
+        "start": "1993-07-01",
+        "end": null,
+        "yearStart": "",
+        "message": ""
+      }
+    ],
+    "cashBasisVat": false,
+    "cashBasisVatStart": null,
+    "cashBasisVatEnd": null,
+    "inactive": false,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "splitVat": false,
+    "eFacturaRegistered": false,
+    "headquartersAddress": {
+      "street": "B-dul Dorobanți",
+      "number": "72-76",
+      "locality": "Sector 1 Mun. Bucureşti",
+      "county": "MUNICIPIUL BUCUREŞTI",
+      "country": "",
+      "postalCode": ""
+    },
+    "fiscalAddress": {
+      "street": "",
+      "number": "",
+      "locality": "",
+      "county": "",
+      "country": "",
+      "postalCode": ""
+    },
+    "administrators": [
+      {
+        "name": "",
+        "role": "administrator"
+      }
+    ],
+    "authorizedCaenCodes": [
+      "6201"
+    ],
+    "onrcStatus": 1048,
+    "onrcStatusLabel": "Funcțiune"
+  },
+  "peviitor": {
+    "id": "16139707",
+    "company": "STEFANINI ROMANIA SRL",
+    "brand": "STEFANINI",
+    "group": "Stefanini",
+    "status": "activ",
+    "website": [
+      "https://stefanini.com"
+    ],
+    "career": [
+      "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania"
+    ],
+    "lastScraped": "2026-07-27",
+    "scraperFile": "https://github.com/sebiboga/stefanini-romania-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml",
+    "_version_": 1862291263324160000,
+    "_root_": "16139707"
+  },
+  "summary": {
+    "company": "STEFANINI ROMANIA SRL",
+    "cif": "16139707",
+    "active": true,
+    "inactiveSince": null,
+    "reactivatedSince": null,
+    "address": "MUNICIPIUL BUCUREŞTI, SECTOR 1, BULEVARDUL DOROBANTILOR, NR.72-76, ETAJ 3",
+    "registrationNumber": "J40/2034/1991",
+    "caenCode": "6201",
+    "vatRegistered": true,
+    "eFacturaRegistered": false
+  }
+}

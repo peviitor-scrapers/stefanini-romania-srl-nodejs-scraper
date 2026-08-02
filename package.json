@@ -1,8 +1,8 @@
 {
   "name": "scraper-stefanini-ro",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
-"main": "scraper/index.js",
+  "main": "scraper/index.js",
   "scripts": {
     "scrape": "node --no-deprecation scraper/index.js",
     "test": "node --no-deprecation --experimental-vm-modules node_modules/jest/bin/jest.js",

@@ -3,16 +3,16 @@ import * as cheerio from "cheerio";
 import fs from "fs";
 import { fileURLToPath } from "url";
 import { validateAndGetCompany } from "./company.js";
-import { querySOLR, upsertJobs, upsertCompany } from "./api.js";
+import { querySOLR, upsertJobs, upsertCompany, deleteJobByUrl } from "./api.js";
 import { generateJobsMarkdown } from "./markdown-generator.js";
 import companyConfig from "./config/company.js";
+import scraperConfig from "./config/scraper.js";
 
 const COMPANY_ID = companyConfig.id;
 
-const TARGET_URL = companyConfig.career[0];
-const API_BASE = "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs";
-
-const TIMEOUT = 10000;
+const TARGET_URL = scraperConfig.careersUrl || companyConfig.career[0];
+const API_BASE = scraperConfig.apiBase;
+const TIMEOUT = scraperConfig.timeout || 10000;
 
 let COMPANY_NAME = null;
 
@@ -142,6 +142,7 @@ async function main() {
     console.log("=== Step 1: Get existing jobs count ===");
     const existingResult = await querySOLR(COMPANY_ID);
     const existingCount = existingResult.numFound;
+    const existingUrls = new Set((existingResult.docs || []).map(doc => doc.url).filter(Boolean));
     console.log(`Found ${existingCount} existing jobs in SOLR`);
 
     console.log("=== Step 2: Validate company via ANAF ===");
@@ -208,10 +209,26 @@ async function main() {
     console.log("\n=== Step 4: Upsert jobs to SOLR ===");
     await upsertJobs(transformedPayload.jobs);
 
+    // Step 4.5: Delete stale jobs — URLs in SOLR but no longer on the website
+    const scrapedUrls = new Set(transformedPayload.jobs.map(job => job.url));
+    const staleUrls = [...existingUrls].filter(url => !scrapedUrls.has(url));
+
+    if (staleUrls.length > 0) {
+      console.log(`\n=== Step 4.5: Delete ${staleUrls.length} stale job(s) ===`);
+      for (const url of staleUrls) {
+        console.log(`  Deleting: ${url}`);
+        await deleteJobByUrl(url);
+      }
+      console.log(`✅ Deleted ${staleUrls.length} stale job(s)`);
+    } else {
+      console.log("\n✅ No stale jobs to delete");
+    }
+
     const finalResult = await querySOLR(COMPANY_ID);
     console.log(`\n=== SUMMARY ===`);
     console.log(`Jobs existing in SOLR before scrape: ${existingCount}`);
     console.log(`Jobs scraped from STEFANINI website: ${scrapedCount}`);
+    console.log(`Stale jobs deleted: ${staleUrls.length}`);
     console.log(`Jobs in SOLR after scrape: ${finalResult.numFound}`);
     console.log(`====================`);
     console.log("\n=== DONE ===");
