@@ -76,7 +76,7 @@
       "https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania"
     ],
     "lastScraped": "2026-07-27",
-    "scraperFile": "https://github.com/sebiboga/stefanini-romania-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml",
+    "scraperFile": "https://github.com/peviitor-scrapers/stefanini-romania-srl-nodejs-scraper/actions/workflows/job-seeker-ro-spider.yml",
     "_version_": 1862291263324160000,
     "_root_": "16139707"
   },
