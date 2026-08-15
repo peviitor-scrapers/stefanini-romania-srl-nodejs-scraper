@@ -63,6 +63,7 @@ describe('company.js', () => {
   describe('validateAndGetCompany', () => {
     it('should return company data with status active', async () => {
       mockFetch
+        .mockResolvedValueOnce(anafCompanyResponse(STEFANINI_ANAF_RECORD))
         .mockResolvedValueOnce(apiJobsResponse(5, [
           { url: 'https://test.com/1', title: 'Job 1' },
           { url: 'https://test.com/2', title: 'Job 2' }

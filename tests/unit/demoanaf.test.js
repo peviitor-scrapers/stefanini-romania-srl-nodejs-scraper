@@ -181,11 +181,17 @@ describe('scraper/anaf.js', () => {
       await expect(anaf.getCompanyFromANAF('00000000')).rejects.toThrow();
     });
 
-    it('should return null when data is null', async () => {
-      mockFetch.mockResolvedValue(anafCompanyResponse(null));
+    it('should fallback to CUIScan when ANAF returns no company data', async () => {
+      mockFetch
+        .mockResolvedValueOnce(anafCompanyResponse(null))
+        .mockResolvedValueOnce(cuiscanCompanyResponse(CUISCAN_RECORD));
 
       const data = await anaf.getCompanyFromANAF('16139707');
-      expect(data).toBeNull();
+
+      expect(data).toBeDefined();
+      expect(data.cui).toBe(16139707);
+      expect(data.name).toBe('STEFANINI ROMANIA SRL');
+      expect(mockFetch).toHaveBeenCalledTimes(2);
     });
   });
 
