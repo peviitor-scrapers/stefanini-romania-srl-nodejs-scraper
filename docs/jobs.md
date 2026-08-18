@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-17 |
+| Last Scraped | 2026-08-18 |
 
 ## Current Job Listings (15)
 
-_Generated: 2026-08-17T07:09:03.180Z_
+_Generated: 2026-08-18T06:56:18.590Z_
+
+### Scrum Master
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45374&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45374&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Senior Databricks Data Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Technical Support Engineer with German
 
@@ -37,12 +49,6 @@ _Generated: 2026-08-17T07:09:03.180Z_
 ### AWS Cloud Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45329&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Senior Databricks Data Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
@@ -91,12 +97,6 @@ _Generated: 2026-08-17T07:09:03.180Z_
 ### Senior Platform Engineer / DevOps Consultant (GitOps & Artifact Storage Platform)
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Senior Java Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45282&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45282&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
