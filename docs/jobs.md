@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-19 |
+| Last Scraped | 2026-08-20 |
 
-## Current Job Listings (15)
+## Current Job Listings (14)
 
-_Generated: 2026-08-19T06:56:35.186Z_
+_Generated: 2026-08-20T06:57:21.857Z_
+
+### Senior Microsoft 365 Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45243&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45243&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Senior PowerShell Automation Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Scrum Master
 
@@ -37,12 +49,6 @@ _Generated: 2026-08-19T06:56:35.186Z_
 ### SAP Basis Technical Services Coordinator
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45263&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### DWP Professional Services Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45243&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45243&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
@@ -70,12 +76,6 @@ _Generated: 2026-08-19T06:56:35.186Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Senior Java Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45327&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45327&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
 ### Cyber Security Incident Responder
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&)
@@ -86,12 +86,6 @@ _Generated: 2026-08-19T06:56:35.186Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### DWP Software Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### Senior Platform Engineer / DevOps Consultant (GitOps & Artifact Storage Platform)
