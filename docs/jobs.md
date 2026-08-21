@@ -10,11 +10,17 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-20 |
+| Last Scraped | 2026-08-21 |
 
 ## Current Job Listings (14)
 
-_Generated: 2026-08-20T06:57:21.857Z_
+_Generated: 2026-08-21T06:58:59.876Z_
+
+### Support Engineer with German (SOS)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45380&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45380&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Senior Microsoft 365 Engineer
 
@@ -26,12 +32,6 @@ _Generated: 2026-08-20T06:57:21.857Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45221&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### Scrum Master
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45374&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45374&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Senior Databricks Data Engineer
