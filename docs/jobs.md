@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-23 |
+| Last Scraped | 2026-08-24 |
 
 ## Current Job Listings (13)
 
-_Generated: 2026-08-23T06:53:06.698Z_
+_Generated: 2026-08-24T07:12:30.808Z_
 
 ### Senior Microsoft 365 Engineer
 
