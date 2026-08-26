@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-08-25 |
+| Last Scraped | 2026-08-26 |
 
-## Current Job Listings (12)
+## Current Job Listings (11)
 
-_Generated: 2026-08-25T06:59:26.615Z_
+_Generated: 2026-08-26T07:00:38.659Z_
 
 ### Senior Microsoft 365 Engineer
 
@@ -67,12 +67,6 @@ _Generated: 2026-08-25T06:59:26.615Z_
 ### Cyber Security Incident Responder
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Security Engineer - Detection &  Response
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45316&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
