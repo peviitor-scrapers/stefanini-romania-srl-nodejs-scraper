@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-06 |
+| Last Scraped | 2026-09-07 |
 
-## Current Job Listings (15)
+## Current Job Listings (14)
 
-_Generated: 2026-09-06T10:45:34.437Z_
+_Generated: 2026-09-07T12:15:57.449Z_
 
 ### Java Developer
 
@@ -91,12 +91,6 @@ _Generated: 2026-09-06T10:45:34.437Z_
 ### Cyber Security Incident Responder
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45317&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Senior Platform Engineer / DevOps Consultant (GitOps & Artifact Storage Platform)
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45290&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
