@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-08 |
+| Last Scraped | 2026-09-09 |
 
 ## Current Job Listings (14)
 
-_Generated: 2026-09-08T11:05:14.659Z_
+_Generated: 2026-09-09T11:09:41.682Z_
 
 ### Java Developer
 
