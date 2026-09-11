@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-10 |
+| Last Scraped | 2026-09-11 |
 
-## Current Job Listings (15)
+## Current Job Listings (16)
 
-_Generated: 2026-09-10T11:06:29.772Z_
+_Generated: 2026-09-11T11:05:08.408Z_
+
+### BPO Support Engineer with English (Grenke)
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45433&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45433&apply=yes&country=Romania&)
+- **Location:** România, România
+- **Status:** scraped
+
+### Senior Databricks Data Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Support Engineer with English
 
@@ -37,12 +49,6 @@ _Generated: 2026-09-10T11:06:29.772Z_
 ### Senior Business System Analyst with Databricks
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45413&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45413&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### Senior Databricks Data Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45337&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
