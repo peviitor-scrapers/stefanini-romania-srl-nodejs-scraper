@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-12 |
+| Last Scraped | 2026-09-13 |
 
 ## Current Job Listings (16)
 
-_Generated: 2026-09-12T10:34:14.210Z_
+_Generated: 2026-09-13T11:37:10.728Z_
 
 ### BPO Support Engineer with English (Grenke)
 
