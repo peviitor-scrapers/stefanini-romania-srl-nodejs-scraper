@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-18 |
+| Last Scraped | 2026-09-19 |
 
-## Current Job Listings (16)
+## Current Job Listings (15)
 
-_Generated: 2026-09-18T11:03:59.813Z_
+_Generated: 2026-09-19T10:45:23.312Z_
 
 ### Team Leader
 
@@ -26,12 +26,6 @@ _Generated: 2026-09-18T11:03:59.813Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45413&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45413&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### BPO Support Engineer with English (Grenke)
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45433&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45433&apply=yes&country=Romania&)
-- **Location:** România, România
 - **Status:** scraped
 
 ### AWS Cloud Engineer
