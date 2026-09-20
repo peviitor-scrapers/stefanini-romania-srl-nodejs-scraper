@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-19 |
+| Last Scraped | 2026-09-20 |
 
 ## Current Job Listings (15)
 
-_Generated: 2026-09-19T10:45:23.312Z_
+_Generated: 2026-09-20T11:10:42.239Z_
 
 ### Team Leader
 
