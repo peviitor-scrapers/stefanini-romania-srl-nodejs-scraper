@@ -10,11 +10,29 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-20 |
+| Last Scraped | 2026-09-21 |
 
-## Current Job Listings (15)
+## Current Job Listings (17)
 
-_Generated: 2026-09-20T11:10:42.239Z_
+_Generated: 2026-09-21T12:37:22.308Z_
+
+### Dispatch Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45378&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45378&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Cyber Security Services Incident Response Analyst
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Cyber Security Services (CSS) Vulnerability Analyst
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45414&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45414&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Team Leader
 
@@ -73,12 +91,6 @@ _Generated: 2026-09-20T11:10:42.239Z_
 ### OT Cybersecurity Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Cyber Security Services Incident Response Analyst
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
