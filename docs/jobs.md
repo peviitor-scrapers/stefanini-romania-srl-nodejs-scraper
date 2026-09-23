@@ -10,16 +10,34 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-22 |
+| Last Scraped | 2026-09-23 |
 
-## Current Job Listings (17)
+## Current Job Listings (18)
 
-_Generated: 2026-09-22T11:24:06.624Z_
+_Generated: 2026-09-23T11:21:04.517Z_
+
+### Cyber Security Services Incident Response Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45405&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45405&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Cyber Security Services Sr Incident Response Analyst
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
 - **Location:** România
+- **Status:** scraped
+
+### Java Developer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45416&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45416&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Junior MDM Data Analyst
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45467&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45467&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Dispatch Engineer
@@ -76,12 +94,6 @@ _Generated: 2026-09-22T11:24:06.624Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Java Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45416&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45416&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
 ### Network Technical Architect
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45410&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45410&apply=yes&country=Romania&)
@@ -91,12 +103,6 @@ _Generated: 2026-09-22T11:24:06.624Z_
 ### OT Cybersecurity Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Cyber Security Services Incident Response Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45405&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45405&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
