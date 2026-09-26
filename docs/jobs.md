@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-25 |
+| Last Scraped | 2026-09-26 |
 
-## Current Job Listings (21)
+## Current Job Listings (20)
 
-_Generated: 2026-09-25T11:39:47.873Z_
+_Generated: 2026-09-26T11:13:51.259Z_
 
 ### Support Engineer with English
 
@@ -26,12 +26,6 @@ _Generated: 2026-09-25T11:39:47.873Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&)
 - **Location:** Sibiu, România
-- **Status:** scraped
-
-### Junior MDM Data Analyst
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45467&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45467&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Java Developer
