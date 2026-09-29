@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-09-28 |
+| Last Scraped | 2026-09-29 |
 
-## Current Job Listings (20)
+## Current Job Listings (18)
 
-_Generated: 2026-09-28T13:38:50.815Z_
+_Generated: 2026-09-29T12:38:17.209Z_
 
 ### IT Business Systems Analyst � Integration Platform
 
@@ -61,12 +61,6 @@ _Generated: 2026-09-28T13:38:50.815Z_
 ### Cyber Security Services Sr Incident Response Analyst
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Dispatch Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45378&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45378&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
@@ -127,11 +121,5 @@ _Generated: 2026-09-28T13:38:50.815Z_
 ### Support Engineer with German
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### Solution Lead � Presales (EMEA Region)
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45181&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
