@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-03 |
+| Last Scraped | 2026-10-04 |
 
 ## Current Job Listings (21)
 
-_Generated: 2026-10-03T11:30:57.374Z_
+_Generated: 2026-10-04T12:11:58.798Z_
 
 ### Delivery Manager
 
