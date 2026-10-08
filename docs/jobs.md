@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-07 |
+| Last Scraped | 2026-10-08 |
 
-## Current Job Listings (21)
+## Current Job Listings (23)
 
-_Generated: 2026-10-07T13:08:42.009Z_
+_Generated: 2026-10-08T13:15:58.694Z_
+
+### Security Engineer, Bot Detection
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45535&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45535&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Team Leader
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&)
+- **Location:** Sibiu, România
+- **Status:** scraped
 
 ### OT Cybersecurity Engineer
 
