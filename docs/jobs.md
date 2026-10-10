@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-09 |
+| Last Scraped | 2026-10-10 |
 
 ## Current Job Listings (22)
 
-_Generated: 2026-10-09T13:02:58.985Z_
+_Generated: 2026-10-10T12:19:44.692Z_
 
 ### Detection Engineer - Product Security
 
