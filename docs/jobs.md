@@ -10,11 +10,29 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-11 |
+| Last Scraped | 2026-10-12 |
 
-## Current Job Listings (22)
+## Current Job Listings (24)
 
-_Generated: 2026-10-11T12:36:13.793Z_
+_Generated: 2026-10-12T15:09:24.422Z_
+
+### Senior Android Developer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45543&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45543&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### HCI Sr. Server Operations Team Lead
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45531&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45531&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Vendor Coordinator
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45539&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45539&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
 
 ### Detection Engineer - Product Security
 
@@ -68,12 +86,6 @@ _Generated: 2026-10-11T12:36:13.793Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45507&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45507&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### QA Automation Engineer / Junior Java Developer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45513&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45513&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### IT Business Systems Analyst � SME
