@@ -10,11 +10,17 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-12 |
+| Last Scraped | 2026-10-13 |
 
-## Current Job Listings (24)
+## Current Job Listings (23)
 
-_Generated: 2026-10-12T15:09:24.422Z_
+_Generated: 2026-10-13T14:01:42.340Z_
+
+### Junior Bid Manager
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45547&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45547&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Senior Android Developer
 
@@ -46,12 +52,6 @@ _Generated: 2026-10-12T15:09:24.422Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Team Leader
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45450&apply=yes&country=Romania&)
-- **Location:** Sibiu, România
-- **Status:** scraped
-
 ### OT Cybersecurity Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45408&apply=yes&country=Romania&)
@@ -80,12 +80,6 @@ _Generated: 2026-10-12T15:09:24.422Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45468&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45468&apply=yes&country=Romania&)
 - **Location:** Otopeni, România
-- **Status:** scraped
-
-### Junior Booking Assurance Specialist
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45507&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45507&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### IT Business Systems Analyst � SME
