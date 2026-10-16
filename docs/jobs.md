@@ -10,11 +10,29 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-15 |
+| Last Scraped | 2026-10-16 |
 
-## Current Job Listings (24)
+## Current Job Listings (27)
 
-_Generated: 2026-10-15T11:16:48.856Z_
+_Generated: 2026-10-16T11:11:34.307Z_
+
+### SAP Basis Admin
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45546&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45546&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Enterprise Solution Architect
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45183&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45183&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### Technical Solutions Consultant, UC
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45465&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45465&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Bid Manager
 
@@ -32,6 +50,12 @@ _Generated: 2026-10-15T11:16:48.856Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45430&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45430&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
+- **Status:** scraped
+
+### Quality Specialist
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45544&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45544&apply=yes&country=Romania&)
+- **Location:** România
 - **Status:** scraped
 
 ### Senior Android Developer
@@ -109,12 +133,6 @@ _Generated: 2026-10-15T11:16:48.856Z_
 ### Support Engineer with English
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45471&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45471&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### UC Technical Project Manager
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45465&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45465&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
