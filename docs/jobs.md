@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-17 |
+| Last Scraped | 2026-10-18 |
 
 ## Current Job Listings (26)
 
-_Generated: 2026-10-17T10:30:26.344Z_
+_Generated: 2026-10-18T10:50:36.116Z_
 
 ### SAP Basis Admin
 
