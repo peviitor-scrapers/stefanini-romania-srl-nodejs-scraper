@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-18 |
+| Last Scraped | 2026-10-19 |
 
-## Current Job Listings (26)
+## Current Job Listings (24)
 
-_Generated: 2026-10-18T10:50:36.116Z_
+_Generated: 2026-10-19T12:52:34.783Z_
 
 ### SAP Basis Admin
 
@@ -34,12 +34,6 @@ _Generated: 2026-10-18T10:50:36.116Z_
 - **Location:** România
 - **Status:** scraped
 
-### Bid Manager
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45529&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45529&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
 ### Senior AWS DevOps Engineer
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45548&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45548&apply=yes&country=Romania&)
@@ -50,12 +44,6 @@ _Generated: 2026-10-18T10:50:36.116Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45430&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45430&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
-- **Status:** scraped
-
-### Quality Specialist
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45544&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45544&apply=yes&country=Romania&)
-- **Location:** România
 - **Status:** scraped
 
 ### HCI Sr. Server Operations Team Lead
@@ -124,12 +112,6 @@ _Generated: 2026-10-18T10:50:36.116Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Support Engineer with English
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45471&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45471&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
 ### Cyber Security Services (CSS) Vulnerability Analyst
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45414&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45414&apply=yes&country=Romania&)
@@ -169,5 +151,11 @@ _Generated: 2026-10-18T10:50:36.116Z_
 ### Support Engineer with German
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45314&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
+
+### ANALIST
+
+- **URL:** [https://mediere.anofm.ro/app/module/mediere/job/3421698](https://mediere.anofm.ro/app/module/mediere/job/3421698)
 - **Location:** România
 - **Status:** scraped
