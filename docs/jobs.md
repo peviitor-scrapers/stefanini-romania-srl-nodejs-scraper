@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-10-29 |
+| Last Scraped | 2026-10-30 |
 
 ## Current Job Listings (21)
 
-_Generated: 2026-10-29T12:47:09.937Z_
+_Generated: 2026-10-30T12:38:44.713Z_
 
 ### Network Security Engineer
 
