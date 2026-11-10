@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-11-09 |
+| Last Scraped | 2026-11-10 |
 
-## Current Job Listings (23)
+## Current Job Listings (25)
 
-_Generated: 2026-11-09T15:56:51.154Z_
+_Generated: 2026-11-10T14:43:46.243Z_
+
+### PMO Financial & Operational Support
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45623&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45623&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### Cybersecurity Senior Engineer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45617&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45617&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Java Developer
 
