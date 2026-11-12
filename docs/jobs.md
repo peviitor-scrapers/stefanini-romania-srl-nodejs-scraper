@@ -10,11 +10,17 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-11-11 |
+| Last Scraped | 2026-11-12 |
 
 ## Current Job Listings (23)
 
-_Generated: 2026-11-11T13:58:57.401Z_
+_Generated: 2026-11-12T14:59:45.489Z_
+
+### Cyber Security Services (CSS) Team Lead
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45446&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45446&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### PMO Financial & Operational Support
 
@@ -97,12 +103,6 @@ _Generated: 2026-11-11T13:58:57.401Z_
 ### Cyber Security Services Sr Incident Response Analyst  (L3)
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### SAP Basis Admin
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45546&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45546&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
