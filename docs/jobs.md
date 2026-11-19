@@ -10,11 +10,11 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-11-18 |
+| Last Scraped | 2026-11-19 |
 
-## Current Job Listings (23)
+## Current Job Listings (21)
 
-_Generated: 2026-11-18T15:29:43.939Z_
+_Generated: 2026-11-19T15:37:14.541Z_
 
 ### Enterprise ITAM & EOL Asset Data and Integration Analyst
 
@@ -25,12 +25,6 @@ _Generated: 2026-11-18T15:29:43.939Z_
 ### Enterprise ITAM & EOL Reporting and Assurance  Analyst
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45629&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45629&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
-### ServiceNow Integration & Quality Engineer
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45635&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45635&apply=yes&country=Romania&)
 - **Location:** Bucharest, România
 - **Status:** scraped
 
@@ -80,12 +74,6 @@ _Generated: 2026-11-18T15:29:43.939Z_
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45446&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45446&apply=yes&country=Romania&)
 - **Location:** România
-- **Status:** scraped
-
-### PMO Financial & Operational Support
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45623&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45623&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
 - **Status:** scraped
 
 ### Cybersecurity Senior Engineer
