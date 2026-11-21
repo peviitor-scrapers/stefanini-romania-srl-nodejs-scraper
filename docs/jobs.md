@@ -10,11 +10,17 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-11-20 |
+| Last Scraped | 2026-11-21 |
 
 ## Current Job Listings (18)
 
-_Generated: 2026-11-20T15:17:00.968Z_
+_Generated: 2026-11-21T14:30:13.867Z_
+
+### SAP User Management Specialist � L2
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Java Developer
 
@@ -43,12 +49,6 @@ _Generated: 2026-11-20T15:17:00.968Z_
 ### Cyber Security Services Sr Incident Response Analyst  (L3)
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45406&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### SAP User Management Specialist � L2
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
