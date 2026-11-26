@@ -72,6 +72,15 @@ describe('api.js', () => {
       expect(result.docs).toEqual([]);
     });
 
+    it('should treat 404 "No jobs for CIF" as an empty result', async () => {
+      mockFetch.mockResolvedValue(makeErrorResponse(404, '{"error":"No jobs for CIF 16139707","code":404}'));
+
+      const result = await api.querySOLR('16139707');
+
+      expect(result.numFound).toBe(0);
+      expect(result.docs).toEqual([]);
+    });
+
     it('should throw on HTTP error', async () => {
       mockFetch.mockResolvedValue(makeErrorResponse(500, 'Internal Server Error'));
 
