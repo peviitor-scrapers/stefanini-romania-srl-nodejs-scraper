@@ -10,11 +10,23 @@
 | Location | Bucureşti Sectorul 1 |
 | Website | [https://stefanini.com](https://stefanini.com) |
 | Careers | [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/process_jobsearch.asp?country=Romania) |
-| Last Scraped | 2026-11-26 |
+| Last Scraped | 2026-11-27 |
 
 ## Current Job Listings (20)
 
-_Generated: 2026-11-26T16:44:03.460Z_
+_Generated: 2026-11-27T16:29:47.854Z_
+
+### Senior Go Developer
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45669&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45669&apply=yes&country=Romania&)
+- **Location:** Bucharest, România
+- **Status:** scraped
+
+### SAP User Management Specialist � L2
+
+- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&)
+- **Location:** România
+- **Status:** scraped
 
 ### Support Engineer with German - Elite
 
@@ -34,21 +46,9 @@ _Generated: 2026-11-26T16:44:03.460Z_
 - **Location:** Bucharest, România
 - **Status:** scraped
 
-### Transformation Manager / Technical Program Manager
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45658&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45658&apply=yes&country=Romania&)
-- **Location:** Bucharest, România
-- **Status:** scraped
-
 ### Junior BPO Support Engineer with English
 
 - **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45653&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45653&apply=yes&country=Romania&)
-- **Location:** România
-- **Status:** scraped
-
-### SAP User Management Specialist � L2
-
-- **URL:** [https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&](https://jobs2.smartsearchonline.com/StefaniniEMEA/jobs/jobdetails.asp?jo_num=45627&apply=yes&country=Romania&)
 - **Location:** România
 - **Status:** scraped
 
